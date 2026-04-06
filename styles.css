@@ -1,0 +1,25 @@
+body {
+    font-family: Arial;
+}
+
+.line {
+    fill: none;
+    stroke-width: 2px;
+}
+
+.tooltip {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 6px;
+    display: none;
+    font-size: 13px;
+}
+
+.legend {
+    cursor: pointer;
+}
+
+.legend text {
+    font-size: 12px;
+}
